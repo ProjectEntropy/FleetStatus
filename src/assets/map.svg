@@ -1,6 +1,4 @@
-<template>
-  <div class="col-sm-12">
-    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1600 943.4">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1600 943.4">
   <defs>
 
     <radialGradient id="radial-gradient" cx="711.38" cy="401.19" r="699.77" gradientTransform="translate(-317.36 -74.16) scale(1.55 1.3)" gradientUnits="userSpaceOnUse">
@@ -95,77 +93,3 @@
     <path class="cls-9" d="M756.52,372.62l-65.14,50.83a15.94,15.94,0,0,0-3.44,21.43l38.33,57.28a15.94,15.94,0,0,1-2.63,20.76l-31,27.66q-.39.35-.75.72l-66.16,67.34a15.94,15.94,0,0,0,5.44,26l232,93a15.94,15.94,0,0,0,11.56.12l228.76-86.31a15.94,15.94,0,0,0,4.55-2.65l182.15-151.17a15.94,15.94,0,0,1,25.29,7.2l30.13,89.82a15.94,15.94,0,0,0,9.79,10l47.61,16.89a15.94,15.94,0,0,1,8.83,7.69l32.32,62.36a15.94,15.94,0,0,0,8.34,7.51l53.31,20.87a15.94,15.94,0,0,0,18.81-5.62l43.07-60.7a15.94,15.94,0,0,1,18.82-5.62l76.39,30"/>
   </g>
 </svg>
-
-  </div>
-</template>
-
-<script>
-
-
-
-export default {
-
-  name: 'dashboard',
-  components: {
-  },
-  methods: {
-    
-  },
-  mounted: function()
-  {
-    
-  },
-  data () {
-    return {
-    }
-  }
-}
-</script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-      .cls-1 {
-        fill: url(#radial-gradient);
-      }
-
-      .cls-2 {
-        fill: #b2b4b9;
-      }
-
-      .cls-3 {
-        fill: url(#linear-gradient);
-      }
-
-      .cls-4, .cls-5, .cls-6, .cls-7, .cls-8 {
-        fill: #445194;
-      }
-
-      .cls-4 {
-        opacity: 0.45;
-      }
-
-      .cls-5 {
-        opacity: 0.2;
-      }
-
-      .cls-6 {
-        opacity: 0.3;
-      }
-
-      .cls-7 {
-        opacity: 0.4;
-      }
-
-      .cls-8 {
-        opacity: 0.5;
-      }
-
-      .cls-9 {
-        fill: none;
-        stroke: #fff;
-        stroke-linecap: round;
-        stroke-linejoin: round;
-        stroke-width: 2px;
-        stroke-dasharray: 6;
-      }
-</style>

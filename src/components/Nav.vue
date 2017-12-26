@@ -5,7 +5,7 @@
             <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
             
             <b-navbar-brand href="#">
-              <img style="max-width:150px;" class="d-inline-block align-top" src="//bitboatassets.s3.amazonaws.com/bitboat/assets/entropy_logo_text_white-e0176ffd0aa399ff0ec1fe28073aafd7e809a5fe6c4135450014d6e19a244d1f.png" alt="Entropy logo text white">
+              <img style="max-width:150px;" class="d-inline-block" src="//bitboatassets.s3.amazonaws.com/bitboat/assets/entropy_logo_text_white-e0176ffd0aa399ff0ec1fe28073aafd7e809a5fe6c4135450014d6e19a244d1f.png" alt="Entropy logo text white">
             </b-navbar-brand>
           </div>
             

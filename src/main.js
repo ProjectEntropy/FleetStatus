@@ -6,6 +6,9 @@ import router from './router'
 
 import BootstrapVue from 'bootstrap-vue'
 
+import Vector from './components/Vector'
+Vue.component('vector', Vector)
+
 Vue.use(BootstrapVue)
 
 import 'bootstrap/dist/css/bootstrap.css'

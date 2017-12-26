@@ -4,7 +4,7 @@
     <main-nav></main-nav>
 
     <div class="container-fluid">
-      <div class="row">
+      <div class="row no-gutters">
         <router-view></router-view>
         <footer></footer>
       </div>

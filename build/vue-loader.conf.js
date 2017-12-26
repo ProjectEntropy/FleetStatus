@@ -10,9 +10,10 @@ module.exports = {
     extract: isProduction
   }),
   transformToRequire: {
-    video: 'src',
-    source: 'src',
-    img: 'src',
-    image: 'xlink:href'
-  }
+  // use for vector:src
+  vector: 'src',
+  // img:src & image:xlink:href url transform (vue default)
+  // https://github.com/vuejs/vue-loader/blob/master/docs/en/options.md
+  img: 'src', image: 'xlink:href'
+}
 }
