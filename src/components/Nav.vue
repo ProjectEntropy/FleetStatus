@@ -1,68 +1,39 @@
 <template>
-  <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container-fluid">
-          <div class="navbar-header">
-
-
-              <!-- Branding Image -->
-              <router-link class="navbar-brand" :to="{ name: 'Stream'}">
-                  Ξntropy
-              </router-link>
+    <b-navbar class="navbar navbar-default navbar-fixed-top navbar-dark" id="mainNav">
+        <div class="container-fluid">
+        <div class="navbar-header">
+            <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
+            
+            <b-navbar-brand href="#">
+              <img style="max-width:150px;" class="d-inline-block align-top" src="//bitboatassets.s3.amazonaws.com/bitboat/assets/entropy_logo_text_white-e0176ffd0aa399ff0ec1fe28073aafd7e809a5fe6c4135450014d6e19a244d1f.png" alt="Entropy logo text white">
+            </b-navbar-brand>
           </div>
+            
+          <b-collapse class="collapse navbar-collapse main-navbar" id="nav_collapse">
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <b-navbar-nav>
+                  <b-nav-item>
+                    Status
+                  </b-nav-item>
+                  <b-nav-item>
+                    Join
+                  </b-nav-item>
+                  <b-nav-item>
+                    Missions
+                  </b-nav-item>
+              </b-navbar-nav>
+              
+          </b-collapse>
+        </div>
 
-          <div class="collapse navbar-collapse" id="app-navbar-collapse">
-              <form class="navbar-form navbar-left">
-                  <div class="form-group">
-                      <input name="q" type="search" class="form-control" placeholder="Search">
-                  </div>
-                  <button type="submit" class="btn btn-default btn-search">
-                      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
-                  </button>
-              </form>
-
-              <!-- Right Side Of Navbar -->
-              <ul class="nav navbar-nav navbar-right">
-
-                      <li>
-                          <router-link :to="{name: 'UploadPage'}">
-                              <span class="glyphicon glyphicon-open"></span>
-                          </router-link>
-                      </li>
-                      <li class="dropdown">
-                          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-                              <span class="glyphicon glyphicon-bell"></span>
-                          </a>
-                          <ul class="dropdown-menu" role="menu">
-                              <li class="dropdown-header">No Notification</li>
-                          </ul>
-                      </li>
-                      <li class="dropdown">
-                          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-                              <span class="glyphicon glyphicon-user"></span> <span class="caret"></span>
-                          </a>
-
-                          <ul class="dropdown-menu" role="menu">
-                              <li class="dropdown-header"> name</li>
-                              <li>
-                                 My Account
-                              </li>
-                              <li class="nav-divider"></li>
-                              <li>
-                                  Logout
-                              </li>
-                          </ul>
-                      </li>
-              </ul>
-          </div>
-      </div>
-  </nav>
+    </b-navbar>
 </template>
 
 <script>
 
 export default {
 
-  name: 'nav',
+  name: 'navs',
 
   data () {
     return {

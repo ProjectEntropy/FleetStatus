@@ -3,20 +3,15 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-// import BootstrapVue from 'bootstrap-vue'
 
-import MoonLoader from './components/Loader'
-//
+import BootstrapVue from 'bootstrap-vue'
+
+Vue.use(BootstrapVue)
+
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 
 Vue.config.productionTip = false
-
-
-// ContentStore
-import ContentStore from './store/videos'
-
-// Vue.use(BootstrapVue);
 
 
 /* eslint-disable no-new */
@@ -24,12 +19,11 @@ new Vue({
   el: '#app',
   router,
   template: '<App/>',
-  components: { App, MoonLoader },
+  components: { App },
 
   created: function () {
     // Establish Ethereum connection on create
     // console.log(ContentStore);
-    // debugger
-    ContentStore.establishWeb3()
+    // ContentStore.establishWeb3()
   }
 })
