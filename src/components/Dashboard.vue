@@ -1,5 +1,6 @@
 <template>
   <div class="col-sm-12">
+
     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="0 0 1600 943.4">
       <defs>
 
@@ -73,22 +74,24 @@
         <path class="cls-3" d="M863.82,70.64c.67,0,2.07-1,.78-1-.67,0-2.07,1-.78,1Z"/>
       </g>
       <g id="Route_sections_Voronoi" data-name="Route sections Voronoi">
-        <polygon class="cls-4" points="1489.5 678.02 1618.61 693.87 1644.08 812.37 1625 878.7 1424.93 818.79 1489.5 678.02"/>
-        <polygon class="cls-5" points="1489.5 678.02 1473.79 558.97 1653 372.29 1642.4 696.79 1489.5 678.02"/>
-        <polygon class="cls-6" points="-98.19 748.66 -113.89 629.61 65.32 442.93 199 613.84 54.72 767.43 -98.19 748.66"/>
-        <polygon class="cls-7" points="199 613.84 401.3 588.5 450.04 545.92 470.69 480.49 279 404.06 65.32 442.93 199 613.84"/>
-        <polygon class="cls-5" points="470.69 480.49 535 404.06 437.89 326.23 279 404.06 470.69 480.49"/>
-        <polygon class="cls-8" points="535 404.06 640.86 490.4 640.83 588.5 564.32 613.84 450.04 545.92 470.69 480.49 535 404.06"/>
-        <polygon class="cls-4" points="756.52 372.62 826.84 316.6 902.1 329.13 945 388.7 892 424.7 802.9 410.06 756.52 372.62"/>
-        <polygon class="cls-6" points="756.52 372.62 826.84 316.6 826.84 247.04 773 233.51 700.67 340.36 756.52 372.62"/>
-        <polygon class="cls-5" points="640.86 490.4 640.86 490.4 668.95 442.93 738.52 361.62 700.67 340.36 535 404.06 640.86 490.4"/>
-        <polygon class="cls-6" points="1424.93 818.79 1489.5 678.02 1473.79 558.97 1241.23 638.51 1241.23 696.79 1424.93 818.79"/>
-        <polygon class="cls-5" points="1473.79 558.97 1254.23 424.7 1206.87 490.4 1161 565.3 1241.23 638.51 1473.79 558.97"/>
-        <polygon class="cls-7" points="1057 743.4 1241.23 696.79 1241.23 638.51 1161 565.3 999.7 613.84 959.11 696.79 1057 743.4"/>
-        <polygon class="cls-8" points="1057 743.4 959.11 696.79 845.63 664.51 795.09 728.1 843.98 780.75 959.11 806.27 1057 743.4"/>
-        <polygon class="cls-5" points="845.63 664.51 640.83 588.5 564.32 613.84 575 706.7 795.09 728.1 845.63 664.51"/>
-        <polygon class="cls-6" points="704.29 612.05 775 518.5 738.52 490.4 640.86 490.4 640.83 588.5 704.29 612.05"/>
-        <polygon class="cls-7" points="640.86 490.4 668.95 442.93 738.52 361.62 756.52 372.62 775 387.54 775 442.93 738.52 490.4 640.86 490.4"/>
+        <polygon class="cls-4" tooltip="South Pacific" detail="Currently here" points="1489.5 678.02 1618.61 693.87 1644.08 812.37 1625 878.7 1424.93 818.79 1489.5 678.02"/>
+        <polygon class="cls-5" tooltip="North Pacific" points="1489.5 678.02 1473.79 558.97 1653 372.29 1642.4 696.79 1489.5 678.02"/>
+        <polygon class="cls-6" tooltip="Australia" points="1424.93 818.79 1489.5 678.02 1473.79 558.97 1241.23 638.51 1241.23 696.79 1424.93 818.79"/>
+        <polygon class="cls-5" tooltip="West Pacific / Tropics" points="1473.79 558.97 1254.23 424.7 1206.87 490.4 1161 565.3 1241.23 638.51 1473.79 558.97"/>
+        <polygon class="cls-7" tooltip="Towards Madagascar" points="1057 743.4 1241.23 696.79 1241.23 638.51 1161 565.3 999.7 613.84 959.11 696.79 1057 743.4"/>
+        <polygon class="cls-8" tooltip="South Africa" points="1057 743.4 959.11 696.79 845.63 664.51 795.09 728.1 843.98 780.75 959.11 806.27 1057 743.4"/>
+        <polygon class="cls-5" tooltip="South Atlantic / Brazil" points="845.63 664.51 640.83 588.5 564.32 613.84 575 706.7 795.09 728.1 845.63 664.51"/>
+        <polygon class="cls-6" tooltip="Atlantic / Africa" points="704.29 612.05 775 518.5 738.52 490.4 640.86 490.4 640.83 588.5 704.29 612.05"/>
+        <polygon class="cls-7" tooltip="North Africa" points="640.86 490.4 668.95 442.93 738.52 361.62 756.52 372.62 775 387.54 775 442.93 738.52 490.4 640.86 490.4"/>
+        <polygon class="cls-4" tooltip="Mediterranean" points="756.52 372.62 826.84 316.6 902.1 329.13 945 388.7 892 424.7 802.9 410.06 756.52 372.62"/>
+        <polygon class="cls-6" tooltip="Pacific" points="-98.19 748.66 -113.89 629.61 65.32 442.93 199 613.84 54.72 767.43 -98.19 748.66"/>
+        <polygon class="cls-7" tooltip="East Pacific" points="199 613.84 401.3 588.5 450.04 545.92 470.69 480.49 279 404.06 65.32 442.93 199 613.84"/>
+        <polygon class="cls-5" tooltip="Carribean" points="470.69 480.49 535 404.06 437.89 326.23 279 404.06 470.69 480.49"/>
+        <polygon class="cls-8" tooltip="Central America" points="535 404.06 640.86 490.4 640.83 588.5 564.32 613.84 450.04 545.92 470.69 480.49 535 404.06"/>
+        
+        <polygon class="cls-6" tooltip="North Europe" points="756.52 372.62 826.84 316.6 826.84 247.04 773 233.51 700.67 340.36 756.52 372.62"/>
+        <polygon class="cls-5" tooltip="North Atlantic" points="640.86 490.4 640.86 490.4 668.95 442.93 738.52 361.62 700.67 340.36 535 404.06 640.86 490.4"/>
+        
       </g>
       <g id="Route">
         <path class="cls-9" d="M-167,605.18,10.38,658.25a11.36,11.36,0,0,0,14.06-7.36l30-91.92a11.36,11.36,0,0,1,11.28-7.83L396,564.92a11.36,11.36,0,0,0,11.47-8.48l36.19-138.5a11.36,11.36,0,0,1,19.7-4.43L526.75,489a11.36,11.36,0,0,0,14.57,2.43l143-86.16a11.36,11.36,0,0,0,3.36-3.09L761.9,299.08a3.58,3.58,0,0,1,6.43,2.68l-9.23,55.4A11.36,11.36,0,0,0,772,370.26l68.22-10.39a11.36,11.36,0,0,1,7.07,1.21l23.26,12.44"/>
@@ -96,6 +99,14 @@
       </g>
     </svg>
 
+    <div id="tooltip_card" class="card" style="width: 18rem; opacity: 0;">
+      <div class="card-body">
+        <h4 id="tooltip" class="card-title">
+        </h4>
+
+        <div id="detail"></div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -111,7 +122,26 @@ export default {
   },
   mounted: function()
   {
+    var tooltip_card = this.$d3.select('#tooltip_card')
+    var tooltip = this.$d3.select('#tooltip')
+    var detail = this.$d3.select('#detail')
+    var route = this.$d3.select("#Route_sections_Voronoi")
     
+    route.selectAll(".cls-4, .cls-5, .cls-6, .cls-7, .cls-8").on("mouseover", function(d) {
+      // console.log(this);
+      tooltip_card.transition()
+         .duration(200)
+         .style("opacity", .9);
+      
+      tooltip.html(this.getAttribute("tooltip"))
+      detail.html(this.getAttribute("detail"))
+    }).on("mouseout", function(d) {
+       tooltip_card.transition()
+         .duration(500)
+         .style("opacity", 0);
+       });
+
+
   },
   data () {
     return {
@@ -122,6 +152,14 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+  #tooltip_card
+  {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    min-height: 10rem;
+  }
+
   .cls-4:hover, .cls-5:hover, .cls-6:hover, .cls-7:hover, .cls-8:hover
   {
     fill: magenta;

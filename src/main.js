@@ -14,6 +14,10 @@ Vue.use(BootstrapVue)
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 
+// D3
+var VueD3 = require('vue-d3')
+Vue.use(VueD3)
+
 Vue.config.productionTip = false
 
 
