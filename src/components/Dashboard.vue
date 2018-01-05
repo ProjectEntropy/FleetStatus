@@ -126,20 +126,25 @@ export default {
     var tooltip = this.$d3.select('#tooltip')
     var detail = this.$d3.select('#detail')
     var route = this.$d3.select("#Route_sections_Voronoi")
+    var active
     
-    route.selectAll(".current, .cls-5, .cls-6, .cls-7, .cls-8").on("mouseover", function(d) {
-      // console.log(this);
-      tooltip_card.transition()
-         .duration(200)
-         .style("opacity", .9);
-      
-      tooltip.html(this.getAttribute("tooltip"))
-      detail.html(this.getAttribute("detail"))
-    }).on("mouseout", function(d) {
-       tooltip_card.transition()
-         .duration(500)
-         .style("opacity", 0);
-       });
+    route.selectAll(".current, .future, .cls-5, .cls-6, .cls-7, .cls-8")
+      .on("mouseover", function(d) {
+        tooltip_card.transition()
+           .duration(200)
+           .style("opacity", 1.0);
+        
+        tooltip.html(this.getAttribute("tooltip"))
+        detail.html(this.getAttribute("detail"))
+      })
+      .on("mouseout", function(d) {
+        tooltip_card.transition()
+          .duration(500)
+          .style("opacity", 0);
+      })
+      .on("click", function(d) {
+        
+      })
 
 
   },
