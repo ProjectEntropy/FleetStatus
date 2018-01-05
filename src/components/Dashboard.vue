@@ -126,7 +126,7 @@ export default {
     var tooltip = this.$d3.select('#tooltip')
     var detail = this.$d3.select('#detail')
     var route = this.$d3.select("#Route_sections_Voronoi")
-    var active
+    var active_tile
     
     route.selectAll(".current, .future, .cls-5, .cls-6, .cls-7, .cls-8")
       .on("mouseover", function(d) {
@@ -143,7 +143,9 @@ export default {
           .style("opacity", 0);
       })
       .on("click", function(d) {
-        
+        active_tile.add
+        active_tile = this;
+
       })
 
 
@@ -190,6 +192,7 @@ export default {
     stroke-linecap: round;
     stroke-linejoin: round;
     stroke-width: 5px;
+    mix-blend-mode: difference;
   }
 
   .cls-1 {
