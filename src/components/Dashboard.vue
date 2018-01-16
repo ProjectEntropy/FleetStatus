@@ -142,11 +142,6 @@ export default {
           .duration(500)
           .style("opacity", 0);
       })
-      .on("click", function(d) {
-        active_tile.add
-        active_tile = this;
-
-      })
 
 
   },
@@ -167,13 +162,14 @@ export default {
     min-height: 10rem;
   }
 
-  .future:hover, .cls-5:hover, .cls-6:hover, .cls-7:hover, .cls-8:hover
+  .current:hover, .future:hover, .cls-5:hover, .cls-6:hover, .cls-7:hover, .cls-8:hover
   {
     fill: magenta;
-    stroke: #000;
+    /*stroke: #000;
     stroke-linecap: round;
     stroke-linejoin: round;
     stroke-width: 5px;
+    */
     opacity: 0.7;
     stroke-opacity: 1.0;
   }
@@ -256,7 +252,7 @@ export default {
     stroke-width: 4px;
     stroke-dasharray: 16;
 
-    animation: dash 20s linear;
+    /*animation: dash 20s linear;*/
     animation-iteration-count: infinite;
     
   }
