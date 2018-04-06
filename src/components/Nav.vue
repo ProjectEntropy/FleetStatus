@@ -1,5 +1,5 @@
 <template>
-    <b-navbar class="navbar navbar-default navbar-fixed-top navbar-dark" id="mainNav">
+    <b-navbar class="navbar navbar-expand-sm navbar-default navbar-fixed-top navbar-dark" id="mainNav">
         <div class="container-fluid">
         <div class="navbar-header">
             <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
